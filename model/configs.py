@@ -20,29 +20,6 @@ NUM_UNQ_CHARS = len(UNQ_CHARS) # +1 is for '-' blank at last
 
 MODEL_NAME = "ASR_model"
 
-# ALL of the directories for weights, model and losses are handled here
-# import os
-
-# DATASET_DIR = "/content/drive/My Drive/datasets/ASR-NP/cleaned_datasets"
-
-# if LOAD_MFCC_FILES :
-#     DATASET_DIR = "/content/drive/My Drive/datasets/ASR-NP/13_mel_scales_mfcc_cleaned_datasets"
-
-# MODEL_NAME = "CNN + ResNet + BiLSTM"
-# MAIN_DIR = f"/content/drive/My Drive/models/ASR_NP/{MODEL_NAME}"
-# HISTORY_DIR = f"{MAIN_DIR}/history.txt"
-# WEIGHTS_DIR = f"{MAIN_DIR}/weights"
-# SAVED_MODEL_DIR = f"{MAIN_DIR}/saved_model/trained_model"
-# LOSSES_DIR = f"{MAIN_DIR}/losses.pickle"
-
-# if not os.path.exists(MAIN_DIR):
-#     os.makedirs(MAIN_DIR)
-# if not os.path.exists(WEIGHTS_DIR):
-#     os.makedirs(WEIGHTS_DIR)
-# if not os.path.exists(f"{MAIN_DIR}/saved_model"):
-#     os.makedirs(f"{MAIN_DIR}/saved_model")
-
-
 
 # Checks for the availability of the GPU
 device_name = tf.test.gpu_device_name()
