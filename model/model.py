@@ -1,3 +1,10 @@
+"""
+Author: Manish Dhakal
+Year: 2022
+Email: mns.dkl19@gmail.com
+Publication: https://
+"""
+
 from .configs import MODEL_NAME, INPUT_DIM, NUM_UNQ_CHARS
 from tensorflow.keras import layers, Model, Input
 import tensorflow.keras.backend as K
