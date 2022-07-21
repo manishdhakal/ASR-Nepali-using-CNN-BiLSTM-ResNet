@@ -6,7 +6,7 @@ This repo is a part of the [research](#) project for designing the automatic spe
 
 ## Things to consider
 - You are free to use this research as refernce and make modifications to continue your own research in Nepali ASR. 
-- The trainer has been implemented to run on the sampled data for now. To replicate the result please replace the sampled dataset with original [OpenSLR dataset.](https://openslr.org/54)
+- The `trainer.py` has been implemented to run on the sampled data for now. To replicate the result please replace the sampled dataset with original [OpenSLR dataset.](https://openslr.org/54)
 - Please remove the (audio, text) pairs that include Devnagari numeric transcriptions like १४२३, ५९२, etc from the dataset because they degrade the performance of dataset.
 
 ## Our approach
@@ -22,6 +22,14 @@ This repo is a part of the [research](#) project for designing the automatic spe
 
 ![Model](https://github.com/manishdhakal/ASR-Nepali-using-CNN-BiLSTM-ResNet/blob/main/media/model.png?raw=true)
 
+## Running the project
+0. Initialize the virtual environment by installing packages from `requirements.txt`.
+1. Running training pipeline & `eval.py` can be also be used to evaluate your own (audio,text) pairs.
+```
+python trainer.py   # For running the training pipeline
+python eval.py      # For testing and evaluating the model already trained by the author
+```
+
 ## Results
 Models and Their character error rate (CER) on Test Data (5% of Total Data.)
 
@@ -32,3 +40,5 @@ Models and Their character error rate (CER) on Test Data (5% of Total Data.)
 |  1D-CNN + ResNet + BiGRU | 29.6% | 1.30M |            
 |  **1D-CNN + ResNet + BiLSTM** | **17.06%** | **1.55M**|
 |  1D-CNN + ResNet + LSTM | 30.27% | 0.88M|
+
+For any queries email the author [here](mailto:mns.dkl19@gmail.com).
