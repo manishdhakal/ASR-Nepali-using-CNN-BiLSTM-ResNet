@@ -24,7 +24,7 @@ This repo is a part of the [research](#) project for designing the automatic spe
 
 ## Running the project
 0. Initialize the virtual environment by installing packages from `requirements.txt`.
-1. Running training pipeline & `eval.py` can be also be used to evaluate your own (audio,text) pairs.
+1. Run the training pipeline & evaluate authors model, which can be also be used to evaluate your own (audio,text) pairs.
 ```
 python trainer.py   # For running the training pipeline
 python eval.py      # For testing and evaluating the model already trained by the author
