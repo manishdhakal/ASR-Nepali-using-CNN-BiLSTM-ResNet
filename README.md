@@ -4,11 +4,11 @@
 ## Intorduction
 This repo is a part of the [research](#) project for designing the automatic speech recogntion(ASR) model for Nepali language using ML techniques.
 
-## Things to consider
+## Things to consider before
 - You are free to use this research as refernce and make modifications to continue your own research in Nepali ASR. 
-- The `trainer.py` has been implemented to run on the sampled data for now. To replicate the result please replace the sampled dataset with original [OpenSLR dataset.](https://openslr.org/54)
-- Please remove the (audio, text) pairs that include Devnagari numeric transcriptions like १४२३, ५९२, etc from the dataset because they degrade the performance of dataset.
-
+- The `trainer.py` has been implemented to run on the sampled data for now. To replicate the result please replace dataset directory with original [OpenSLR dataset.](https://openslr.org/54)
+- Please remove the (audio, text) pairs that include Devnagari numeric texts like १४२३, ५९२, etc from the dataset because they degrade the performance of dataset.
+  
 ## Our approach
 0. Remove the (audio, text) pairs that include Devnagari numeric transcriptions
 1. Data cleaning (clipping silent gaps from both ends)

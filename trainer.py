@@ -130,9 +130,14 @@ if __name__ == "__main__":
     # Load the data
     print("Loading data.....")
     train_wavs, train_texts = load_data(
-        "dataset/wav_files(sampled)", "dataset/transcriptions(sampled)/file_speaker_text(sampled).csv")
+        wavs_dir="dataset/wav_files(sampled)", texts_dir="dataset/transcriptions(sampled)/file_speaker_text(sampled).csv")
     print("Data loaded \u2705 \u2705 \u2705 \u2705\n")
 
+    """
+    To replicate the results give the argument as text_dir="dataset/transcriptions(sampled)/file_speaker_text(orignally_trained).csv".
+    Get all of the wavs files from https://openslr.org/54/, put them in a single directory, and give that directory as argument for wavs_dir.
+    """
+    
     # Clean the audio file by removing the silent gaps from the both ends the audio file
     print("Cleaning the audio files.....")
     train_wavs = [clean_single_wav(wav) for wav in train_wavs]
