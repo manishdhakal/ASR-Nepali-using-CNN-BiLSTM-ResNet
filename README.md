@@ -1,8 +1,9 @@
 # Automatic Speech Recognition for the Nepali Language using CNN, Bidirectional LSTM and, ResNet
 ## Keywords
-```Nepali Speech Recognition, CNN, ResNet, BiLSTM, CTC ```
+```Speech To Text, Nepali, CNN, ResNet, BiLSTM, CTC ```
 ## Intorduction
-This repo is a part of the [research](#) project for designing the automatic speech recogntion(ASR) model for Nepali language using ML techniques.
+This repo is a part of the research project for designing the automatic speech recogntion(ASR) model for Nepali language using ML techniques. The conference for this paper has been [published](https://ieeexplore.ieee.org/document/9850832) in 2022 International Conference on Inventive Computation Technologies ([2022 ICICT](https://ieeexplore.ieee.org/xpl/conhome/9850395/proceeding)).
+- DOI : [10.1109/ICICT54344.2022.9850832](https://doi.org/10.1109/ICICT54344.2022.9850832)
 
 ## Things to consider before
 - You are free to use this research as a reference and make modifications to continue your own research in Nepali ASR. 
