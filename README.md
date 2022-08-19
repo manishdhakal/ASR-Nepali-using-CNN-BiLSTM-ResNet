@@ -5,7 +5,7 @@
 This repo is a part of the [research](#) project for designing the automatic speech recogntion(ASR) model for Nepali language using ML techniques.
 
 ## Things to consider before
-- You are free to use this research as refernce and make modifications to continue your own research in Nepali ASR. 
+- You are free to use this research as a reference and make modifications to continue your own research in Nepali ASR. 
 - The `trainer.py` has been implemented to run on the sampled data for now. To replicate the result please replace dataset directory with original [OpenSLR dataset.](https://openslr.org/54)
 - Please remove the (audio, text) pairs that include Devnagari numeric texts like १४२३, ५९२, etc from the dataset because they degrade the performance of dataset.
   
@@ -38,7 +38,7 @@ Models and Their character error rate (CER) on Test Data (5% of Total Data.)
 |BiLSTM | 19.71% | 1.17M |
 |  1D-CNN + BiLSTM | 24.6% | 1.55M |            
 |  1D-CNN + ResNet + BiGRU | 29.6% | 1.30M |            
-|  **1D-CNN + ResNet + BiLSTM** | **17.06%** | **1.55M**|
+|  **&check; 1D-CNN + ResNet + BiLSTM** | **&check; 17.06%** | **&check; 1.55M**|
 |  1D-CNN + ResNet + LSTM | 30.27% | 0.88M|
 
 For any queries email the author [here](mailto:mns.dkl19@gmail.com).
