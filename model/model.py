@@ -2,7 +2,7 @@
 Author: Manish Dhakal
 Year: 2022
 Email: mns.dkl19@gmail.com
-Publication: https://
+Publication: https://doi.org/10.1109/ICICT54344.2022.9850832
 """
 
 from .configs import MODEL_NAME, INPUT_DIM, NUM_UNQ_CHARS
@@ -64,7 +64,6 @@ def get_model(ip_channel, num_classes, num_res_blocks=3, num_cnn_layers=1, cnn_f
 
 if __name__ == "__main__":
     # Defintion of the model
-    
     model = get_model(INPUT_DIM, NUM_UNQ_CHARS, num_res_blocks=5, num_cnn_layers=2,
                      cnn_filters=50, cnn_kernel_size=15, rnn_dim=170, num_rnn_layers=2,
                      num_dense_layers=1, dense_dim=340, model_name=MODEL_NAME, rnn_type="lstm",
