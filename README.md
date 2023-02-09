@@ -42,4 +42,19 @@ Models and Their character error rate (CER) on Test Data (5% of Total Data.)
 |  **&check; 1D-CNN + ResNet + BiLSTM** | **&check; 17.06%** | **&check; 1.55M**|
 |  1D-CNN + ResNet + LSTM | 30.27% | 0.88M|
 
+
+## Cite this paper
+The bibtex for citing this paper:
+
+```
+@inproceedings{dhakal2022automatic,
+  title={Automatic speech recognition for the Nepali language using CNN, bidirectional LSTM and ResNet},
+  author={Dhakal, Manish and Chhetri, Arman and Gupta, Aman Kumar and Lamichhane, Prabin and Pandey, Suraj and Shakya, Subarna},
+  booktitle={2022 International Conference on Inventive Computation Technologies (ICICT)},
+  pages={515--521},
+  year={2022},
+  organization={IEEE}
+}
+```
+
 For any queries email the author [here](mailto:mns.dkl19@gmail.com).
