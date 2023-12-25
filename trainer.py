@@ -18,7 +18,7 @@ def train_model(model, optimizer, train_wavs, train_texts, test_wavs, test_texts
 
     with tf.device(device_name):
 
-        for e in range(0, epochs + epochs):
+        for e in range(0, epochs):
             start_time = time.time()
 
             len_train = len(train_wavs)
