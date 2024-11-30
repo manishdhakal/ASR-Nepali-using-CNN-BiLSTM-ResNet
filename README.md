@@ -36,7 +36,7 @@ python eval.py      # For testing and evaluating the model already trained by th
 ## Results
 Models and Their character error rate (CER) on Test Data (5% of Total Data.)
 
-| Model | Test Data CER | # Params |
+| Model | Test Data CER &darr; | # Params &darr; |
 | :---: | :---: | :---: | 
 |BiLSTM | 19.71% | 1.17M |
 |  1D-CNN + BiLSTM | 24.6% | 1.55M |            
